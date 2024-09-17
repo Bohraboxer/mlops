@@ -1,0 +1,11 @@
+prefix=/home/rohit/mlops/mlops
+exec_prefix=/home/rohit/mlops/mlops
+libdir=/home/rohit/mlops/mlops/lib
+includedir=/home/rohit/mlops/mlops/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
